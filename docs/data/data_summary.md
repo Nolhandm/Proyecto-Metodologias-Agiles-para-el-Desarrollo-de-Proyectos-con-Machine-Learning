@@ -4,24 +4,30 @@ Este documento contiene los resultados del análisis exploratorio de datos.
 
 ## Resumen general de los datos
 
-En esta sección se presenta un resumen general de los datos. Se describe el número total de observaciones, variables, el tipo de variables, la presencia de valores faltantes y la distribución de las variables.
+Número de registros:  13703
+Número de características:  66
+Número de países:  193
+Número de indicadores de desarrollo:  71
+Tamaño del conjunto de datos: 9.55 MB
+
+2 variables textuales : Country Name y Indicator Name que permiten identificar un pais y el indicador considerado
+64 variables numericas : Las valores del indicador para el pais considerado entre 1960 y 2023
 
 ## Resumen de calidad de los datos
 
-En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
+56.33% de datos faltantes en el conjunto. El numero de valores faltantes varia mucho segun el año, el indicador y el pais. 
+
+Se eligé de conservar solo los datos de 2020 o más recientes y de eliminar indicadores presentes en menos de 75% de los paises. Mas detalles en el notebook [preprocesamiento y analisis de datos](https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning/blob/master/scripts/preprocessing/preprocesamiento_y_an%C3%A1lisis_exploratorio.ipynb)
+
+El conjunto no parece tener valores erroneos. Un resumen de las decisiones sobre las variables basada en valores extremos es disponible en el notebook [preprocesamiento y analisis de datos](https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning/blob/master/scripts/preprocessing/preprocesamiento_y_an%C3%A1lisis_exploratorio.ipynb)
 
 ## Variable objetivo
 
-En esta sección se describe la variable objetivo. Se muestra la distribución de la variable y se presentan gráficos que permiten entender mejor su comportamiento.
+El objetivo del proyecto es de realizar una agrupacion no hay variable objetivo.
 
 ## Variables individuales
 
-En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+Se realizó un análisis de correlación entre las variables para eliminar algunas de las que presentaban una correlación elevada entre ellas. Mas detalles en el notebook [preprocesamiento y analisis de datos](https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning/blob/master/scripts/preprocessing/preprocesamiento_y_an%C3%A1lisis_exploratorio.ipynb)
 
-## Ranking de variables
+Se puede ver en este reporte un análisis detallado de cada variable conservada al final de la análisis de datos y del preprocesamiento : [reporte.html]()
 
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
-
-## Relación entre variables explicativas y variable objetivo
-
-En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.

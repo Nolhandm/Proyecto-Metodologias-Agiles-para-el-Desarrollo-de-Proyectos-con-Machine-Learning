@@ -29,5 +29,5 @@ El objetivo del proyecto es de realizar una agrupacion no hay variable objetivo.
 
 Se realizó un análisis de correlación entre las variables para eliminar algunas de las que presentaban una correlación elevada entre ellas. Mas detalles en el notebook [preprocesamiento y analisis de datos](https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning/blob/master/scripts/preprocessing/preprocesamiento_y_an%C3%A1lisis_exploratorio.ipynb)
 
-Se puede ver en este reporte un análisis detallado de cada variable conservada al final de la análisis de datos y del preprocesamiento : [reporte.html]()
+Se puede ver en este reporte un análisis detallado de cada variable conservada al final de la análisis de datos y del preprocesamiento : [reporte.html](https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning/blob/master/docs/data/reporte.html)
 

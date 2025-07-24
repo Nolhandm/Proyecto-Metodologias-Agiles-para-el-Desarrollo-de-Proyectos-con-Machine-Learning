@@ -8,12 +8,16 @@
 
 ## Código de despliegue
 
-- **Archivo principal:** app.py
-- **Rutas de acceso a los archivos:** src/app.py
-- **Variables de entorno:** archivo data y models del proyecto
+- **Archivo principal:** `app.py`
+- **Rutas de acceso a los archivos:** `src/app.py`
+- **Variables de entorno:** archivo `data` y `models` del proyecto
 
 ## Documentación del despliegue
 
 - **Instrucciones de instalación:**
 - Primero se necesita clonar el proyecto, en un terminal utilizar `git clone https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning.git`
-- **Instrucciones de uso:** (instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
+- Instalar las dependencias con `pip install streamlit pandas numpy scikit-learn matplotlib joblib minisom`
+- **Instrucciones de uso:**
+- Moverse en el archivo src `cd Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning` y `cd src`
+- Utilizar la aplicación con `streamlit run app.py`
+- Cerrar la aplicación con CTRL + C en el terminal

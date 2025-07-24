@@ -4,7 +4,7 @@
 
 - **Nombre del modelo:** som
 - **Plataforma de despliegue:** [Streamlit](https://streamlit.io/)
-- **Requisitos técnicos:** Se utilizé Python 3.12.1, requisitos : streamlit, pandas, numpy, scikit-learn, matplotlib, joblib, minisom
+- **Requisitos técnicos:** Se utilizé Python 3.12.1, requisitos : git, streamlit, pandas, numpy, scikit-learn, matplotlib, joblib, minisom
 
 ## Código de despliegue
 

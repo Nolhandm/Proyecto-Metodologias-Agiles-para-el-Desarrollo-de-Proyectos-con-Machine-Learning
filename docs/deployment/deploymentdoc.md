@@ -20,4 +20,5 @@
 - **Instrucciones de uso:**
 - Moverse en el archivo src `cd Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning/src`
 - Utilizar la aplicación con `streamlit run app.py`
+- Si streamlit no esta reconocido puedes utilizar `export PATH="$HOME/.local/bin:$PATH"`
 - Cerrar la aplicación con CTRL + C en el terminal

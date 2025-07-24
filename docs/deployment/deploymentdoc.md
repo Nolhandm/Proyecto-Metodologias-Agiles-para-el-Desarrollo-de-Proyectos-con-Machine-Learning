@@ -18,6 +18,6 @@
 - Primero se necesita clonar el proyecto, en un terminal utilizar `git clone https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning.git`
 - Instalar las dependencias con `pip install streamlit pandas numpy scikit-learn matplotlib joblib minisom`
 - **Instrucciones de uso:**
-- Moverse en el archivo src `cd Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning` y `cd src`
+- Moverse en el archivo src `cd Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning/src`
 - Utilizar la aplicación con `streamlit run app.py`
 - Cerrar la aplicación con CTRL + C en el terminal

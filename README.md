@@ -9,4 +9,4 @@ Esta plantilla proporciona las siguientes carpetas y archivos:
 * `scripts`: esta carpeta debe contener los scripts/notebooks que se ejecutarán.
 * `pyproject.toml`: archivo de definición del proyecto en Python.
 
-Las instruciones para utilizar el proyecto estan disponible en el archivo [deploylentdoc.md](docs/deployment/deployment.md)
+Las instruciones para utilizar el proyecto estan disponible en el archivo [deploymentdoc.md](docs/deployment/deploymentdoc.md)

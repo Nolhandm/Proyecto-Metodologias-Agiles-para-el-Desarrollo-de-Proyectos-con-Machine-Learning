@@ -15,7 +15,8 @@
 ## Documentación del despliegue
 
 - **Instrucciones de instalación:**
-- Necistas installar [git](https://git-scm.com/downloads)
+- Necesitas installar [git](https://git-scm.com/downloads)
+- Necesitas installar [python](https://www.python.org/downloads/)
 - Primero se necesita clonar el proyecto, en un terminal utilizar `git clone https://github.com/Nolhandm/Proyecto-Metodologias-Agiles-para-el-Desarrollo-de-Proyectos-con-Machine-Learning.git`
 - Instalar las dependencias con `pip install streamlit pandas numpy scikit-learn matplotlib joblib minisom`
 - **Instrucciones de uso:**
